@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>Gun_FOTTZSGlock13D</defName>
+		<defName>Gun_FOTTZS_Glock13D</defName>
 		<label>Glock 13-D</label>
 		<description>A robust pistol designed back in the 21st century. This pistol finds itself mainly in the hands of renegades that live in Olympus.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/FOTTZSGlock13D</texPath>
+			<texPath>Things/Item/Equipment/WeaponRanged/FOTTZS_Glock13D</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<uiIconScale>1.5</uiIconScale>
@@ -42,14 +42,14 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_TCoUSPP</defaultProjectile>
-				<warmupTime>0.75</warmupTime>
-				<ticksBetweenBurstShots>24</ticksBetweenBurstShots>
-				<burstShotCount>4</burstShotCount>
+				<defaultProjectile>Bullet_FOTTZS_Glock13D</defaultProjectile>
+				<warmupTime>0.3</warmupTime>
 				<range>25.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<soundCast>Shot_Autopistol</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>7</muzzleFlashScale>
+				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
 		<tools>
@@ -74,7 +74,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>Bullet_FOTTZSGlock13D</defName>
+		<defName>Bullet_FOTTZS_Glock13D</defName>
 		<label>Glock 13-D bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
