@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Gun_FOTTZSGlock13D</defName>
+		<label>Glock 13-D</label>
+		<description>A robust pistol designed back in the 21st century. This pistol finds itself mainly in the hands of renegades that live in Olympus.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/FOTTZSGlock13D</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<recipeMaker>
+			<!-- <researchPrerequisite>BlowbackOperation</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>4</Crafting> -->
+			<!-- </skillRequirements> -->
+			<displayPriority>2207</displayPriority>
+		</recipeMaker>
+		<weaponTags Inherit="false">
+			<!-- <li>SimpleGun</li> -->
+			<!-- <li>Autopistol</li> -->
+		</weaponTags>
+		<weaponClasses Inherit="false">
+			<!-- <li>RangedLight</li> -->
+		</weaponClasses>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.2</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.40</AccuracyMedium>
+			<AccuracyLong>0.30</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_TCoUSPP</defaultProjectile>
+				<warmupTime>0.75</warmupTime>
+				<ticksBetweenBurstShots>24</ticksBetweenBurstShots>
+				<burstShotCount>4</burstShotCount>
+				<range>25.9</range>
+				<soundCast>Shot_Autopistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>7</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_FOTTZSGlock13D</defName>
+		<label>Glock 13-D bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+</Defs>

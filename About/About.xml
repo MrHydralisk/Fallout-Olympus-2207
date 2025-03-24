@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Fallout - Olympus 2207</name>
+	<authors>
+		<li>MrHydralisk</li>
+		<li>NelsonArts</li>
+		<li>Mortis</li>
+		<li>Ogam</li>
+	</authors>
+	<packageId>MrHydralisk.FalloutOlympusTTZS</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<!-- <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/FOTTZSModIcon</modIconPath> -->
+	<description>---</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+	</loadAfter>
+</ModMetaData>
