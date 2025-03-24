@@ -92,7 +92,6 @@
 		<defName>Gun_FOTTZS_Blessing</defName>
 		<label>Blessing</label>
 		<description>The Harley-Davidson of revolvers. A piece of the US, no matter where you may find yourself.</description>
-		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -209,7 +208,7 @@
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>6</Crafting> -->
 			<!-- </skillRequirements> -->
-			<displayPriority>420</displayPriority>
+			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<verbs>
 			<li>
@@ -295,7 +294,7 @@
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>6</Crafting> -->
 			<!-- </skillRequirements> -->
-			<displayPriority>420</displayPriority>
+			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<verbs>
 			<li>
@@ -343,6 +342,176 @@
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>14</damageAmountBase>
 			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Gun_FOTTZS_Balalaika</defName>
+		<label>Balalaika</label>
+		<description>A eastern made sniper rifle that somehow survived through the war and ended up here. Robust and not too complex to maintain in the field.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<weaponClasses Inherit="false">
+			<!-- <li>LongShots</li> -->
+		</weaponClasses>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.84</AccuracyShort>
+			<AccuracyMedium>0.92</AccuracyMedium>
+			<AccuracyLong>0.72</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>5</Crafting> -->
+			<!-- </skillRequirements> -->
+			<displayPriority>2207</displayPriority>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_FOTTZS_Balalaika</defaultProjectile>
+				<warmupTime>1.7</warmupTime>
+				<range>40.9</range>
+				<soundCast>Shot_BoltActionRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+  
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_FOTTZS_Balalaika</defName>
+		<label>Balalaika bullet</label>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<stoppingPower>1.5</stoppingPower>
+			<speed>70</speed>
+		</projectile>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Gun_FOTTZS_Nyx</defName>
+		<label>Nyx</label>
+		<description>It is unclear what the Olympians planned when creating the Nyx, but they ended up creating this monstrosity, a high caliber precision rifle more akin to a grenade launcher with optics ather than that of a sniper rifle</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/SniperRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<weaponClasses Inherit="false">
+			<!-- <li>LongShots</li> -->
+			<!-- <li>RangedHeavy</li> -->
+		</weaponClasses>
+		<weaponTags Inherit="False">
+			<!-- <li>SniperRifle</li> -->
+		</weaponTags>
+		<thingSetMakerTags Inherit="false">
+			<!-- <li>RewardStandardQualitySuper</li> -->
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>4</Mass>
+			<AccuracyTouch>0.50</AccuracyTouch>
+			<AccuracyShort>0.68</AccuracyShort>
+			<AccuracyMedium>0.88</AccuracyMedium>
+			<AccuracyLong>0.92</AccuracyLong>
+			<RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<!-- <researchPrerequisite>PrecisionRifling</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>7</Crafting> -->
+			<!-- </skillRequirements> -->
+			<displayPriority>2207</displayPriority>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_FOTTZS_Nyx</defaultProjectile>
+				<warmupTime>3.5</warmupTime>
+				<range>47.9</range>
+				<soundCast>Shot_SniperRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+  
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_FOTTZS_Nyx</defName>
+		<label>Nyx bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>36</damageAmountBase>
+			<stoppingPower>2</stoppingPower>
+			<armorPenetrationBase>0.1</armorPenetrationBase>
+			<speed>100</speed>
 		</projectile>
 	</ThingDef>
 
