@@ -11,13 +11,6 @@
 		</graphicData>
 		<uiIconScale>1.5</uiIconScale>
 		<soundInteract>Interact_Autopistol</soundInteract>
-		<recipeMaker>
-			<!-- <researchPrerequisite>BlowbackOperation</researchPrerequisite> -->
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>4</Crafting> -->
-			<!-- </skillRequirements> -->
-			<displayPriority>2207</displayPriority>
-		</recipeMaker>
 		<weaponTags Inherit="false">
 			<!-- <li>SimpleGun</li> -->
 			<!-- <li>Autopistol</li> -->
@@ -38,6 +31,13 @@
 			<Steel>30</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
+		<recipeMaker>
+			<!-- <researchPrerequisite>BlowbackOperation</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>4</Crafting> -->
+			<!-- </skillRequirements> -->
+			<displayPriority>2207</displayPriority>
+		</recipeMaker>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -84,6 +84,265 @@
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>10</damageAmountBase>
 			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Gun_FOTTZS_Blessing</defName>
+		<label>Blessing</label>
+		<description>The Harley-Davidson of revolvers. A piece of the US, no matter where you may find yourself.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.4</uiIconScale>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<weaponTags Inherit="false">
+			<!-- <li>SimpleGun</li> -->
+			<!-- <li>Revolver</li> -->
+		</weaponTags>
+		<weaponClasses Inherit="false">
+			<!-- <li>RangedLight</li> -->
+		</weaponClasses>
+		<statBases>
+			<WorkToMake>4000</WorkToMake>
+			<Mass>1.4</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.45</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>3</Crafting> -->
+			<!-- </skillRequirements> -->
+			<displayPriority>2207</displayPriority>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_FOTTZS_Blessing</defaultProjectile>
+				<warmupTime>0.3</warmupTime>
+				<range>25.9</range>
+				<soundCast>Shot_Revolver</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_FOTTZS_Blessing</defName>
+		<label>blessing bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<stoppingPower>1</stoppingPower>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Gun_FOTTZS_30UX</defName>
+		<label>UX-30</label>
+		<description>A futuristic bullpup carbine used primarily by Olympus scouts. Ultra compact and very resilient to most climates, the UX-30 will keep you safe as long as you keep it safe.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<weaponTags Inherit="false">
+			<!-- <li>IndustrialGunAdvanced</li> -->
+			<!-- <li>AssaultRifle</li> -->
+		</weaponTags>
+		<thingSetMakerTags Inherit="false">
+			<!-- <li>RewardStandardQualitySuper</li> -->
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.74</AccuracyShort>
+			<AccuracyMedium>0.62</AccuracyMedium>
+			<AccuracyLong>0.50</AccuracyLong>
+			<RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<!-- <researchPrerequisite>PrecisionRifling</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>6</Crafting> -->
+			<!-- </skillRequirements> -->
+			<displayPriority>420</displayPriority>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_FOTTZS_M530Lance</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>27.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_FOTTZS_30UX</defName>
+		<label>UX-30 bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>9.5</damageAmountBase>
+			<speed>82</speed>
+		</projectile>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Gun_FOTTZS_M530Lance</defName>
+		<label>M530 Lance</label>
+		<description>A prewar relic, this is a fine example of western engineering. Slightly slower fire rate than most assault rifles but compensates for this by packing quite the punch.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<weaponTags Inherit="false">
+			<!-- <li>IndustrialGunAdvanced</li> -->
+			<!-- <li>AssaultRifle</li> -->
+		</weaponTags>
+		<thingSetMakerTags Inherit="false">
+			<!-- <li>RewardStandardQualitySuper</li> -->
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.67</AccuracyShort>
+			<AccuracyMedium>0.68</AccuracyMedium>
+			<AccuracyLong>0.5</AccuracyLong>
+			<RangedWeapon_Cooldown>2.10</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<!-- <researchPrerequisite>PrecisionRifling</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>6</Crafting> -->
+			<!-- </skillRequirements> -->
+			<displayPriority>420</displayPriority>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_FOTTZS_M530Lance</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_FOTTZS_M530Lance</defName>
+		<label>UX-30 bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>14</damageAmountBase>
+			<speed>65</speed>
 		</projectile>
 	</ThingDef>
 
