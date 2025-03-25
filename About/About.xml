@@ -11,7 +11,7 @@
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
-	<!-- <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/FOTTZSModIcon</modIconPath> -->
+	<modIconPath IgnoreIfNoMatchingField="True">UI/Icons/FOTTZSModIcon</modIconPath>
 	<description>---</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>

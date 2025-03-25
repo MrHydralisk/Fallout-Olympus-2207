@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="ApparelHelmetFOTTZSBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<!-- <generateCommonality>2</generateCommonality> -->
+		<tradeTags Inherit="false">
+			<!-- <li>HiTechArmor</li> -->
+			<!-- <li>Armor</li> -->
+		</tradeTags>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<!-- <recipeUsers Inherit="False"> -->
+			<!-- <li>FabricationBench</li> -->
+			<!-- </recipeUsers> -->
+			<displayPriority>2207</displayPriority>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags Inherit="false">
+				<!-- <li>Soldier</li> -->
+			</defaultOutfitTags>
+			<forceEyesVisibleForRotations>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</forceEyesVisibleForRotations>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.9,0.9,0.9,1)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.33,0.33,0.33,1)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.65,0.65,0.65,1)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.5,0.5,0.5,1)</max>
+				</li>
+			</options>
+		</colorGenerator>
+		<!-- <comps> -->
+		<!-- <li Class="CompProperties_Biocodable"/> -->
+		<!-- </comps> -->
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelHelmetFOTTZSBase">
+		<defName>Apparel_FOTTZS_CSPhalanxHelmet</defName>
+		<label>Combat Helmet Phalanx</label>
+		<description>A suit of military grade combat armor used by lighter security forces of Olympus. Layers of kevlar, steel plates and a electronic combat system within the helmet provides the outer forces not only great protection but good cohesion.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath>
+		</graphicData>
+		<statBases>
+			<WorkToMake>15750</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>1</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.46</ArmorRating_Heat>
+			<Insulation_Cold>1</Insulation_Cold>
+			<Insulation_Heat>1.5</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>30</Plasteel>
+		</costList>
+		<recipeMaker>
+			<!-- <researchPrerequisite>PoweredArmor</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>7</Crafting> -->
+			<!-- </skillRequirements> -->
+		</recipeMaker>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath>
+			<tags>
+				<!-- <li>SpacerMilitary</li> -->
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelHelmetFOTTZSBase">
+		<defName>Apparel_FOTTZS_CSFrogHelmet</defName>
+		<label>Combat Helmet Frog</label>
+		<description>This combat suit is worn by Olympians sent to highly hazardous environments, this suit will provide ample protection to most situations.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath>
+		</graphicData>
+		<statBases>
+			<WorkToMake>15750</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>1.1</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>2.5</Insulation_Cold>
+			<Insulation_Heat>2.5</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>80</Plasteel>
+			<Uranium>10</Uranium>
+		</costList>
+		<recipeMaker>
+			<!-- <researchPrerequisite>PoweredArmor</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>7</Crafting> -->
+			<!-- </skillRequirements> -->
+		</recipeMaker>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath>
+			<tags>
+				<!-- <li>SpacerMilitary</li> -->
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelHelmetFOTTZSBase">
+		<defName>Apparel_FOTTZS_X16CTartarusHelmet</defName>
+		<label>Power Helmet X16C Tartarus</label>
+		<description>Nicknamed the Tartarus because while being inside this highly advanced suit of power armor feels like having been buried alive. Grants high protection, but at a cost of mobility. Worn by the elite branch of Olympus security.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
+		</graphicData>
+		<statBases>
+			<WorkToMake>26250</WorkToMake>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Mass>2.5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.6</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>7</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.8</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>6</ComponentSpacer>
+			<Plasteel>150</Plasteel>
+			<Uranium>50</Uranium>
+		</costList>
+		<recipeMaker>
+			<!-- <researchPrerequisite>PoweredArmor</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>7</Crafting> -->
+			<!-- </skillRequirements> -->
+		</recipeMaker>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
+			<tags>
+				<!-- <li>SpacerMilitary</li> -->
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelHelmetFOTTZSBase">
+		<defName>Apparel_FOTTZS_X16SThanatosHelmet</defName>
+		<label>Power Helmet X16S Thanatos</label>
+		<description>The X16S is an improvement upon the old X16C power armor. With thicker plating and a more robust frame, this is the peak of personal protection upon the field.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
+		</graphicData>
+		<statBases>
+			<WorkToMake>26250</WorkToMake>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<Insulation_Cold>4.5</Insulation_Cold>
+			<Insulation_Heat>4.5</Insulation_Heat>
+			<EquipDelay>8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.9</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>6</ComponentSpacer>
+			<Plasteel>150</Plasteel>
+			<Uranium>50</Uranium>
+		</costList>
+		<recipeMaker>
+			<!-- <researchPrerequisite>PoweredArmor</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>7</Crafting> -->
+			<!-- </skillRequirements> -->
+		</recipeMaker>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
+			<tags>
+				<!-- <li>SpacerMilitary</li> -->
+			</tags>
+		</apparel>
+	</ThingDef>
+
+</Defs>
