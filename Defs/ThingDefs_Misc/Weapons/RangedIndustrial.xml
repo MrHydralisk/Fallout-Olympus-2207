@@ -21,11 +21,11 @@
 		<statBases>
 			<WorkToMake>5000</WorkToMake>
 			<Mass>1.2</Mass>
-			<AccuracyTouch>0.80</AccuracyTouch>
-			<AccuracyShort>0.70</AccuracyShort>
-			<AccuracyMedium>0.40</AccuracyMedium>
+			<AccuracyTouch>0.84</AccuracyTouch>
+			<AccuracyShort>0.66</AccuracyShort>
+			<AccuracyMedium>0.38</AccuracyMedium>
 			<AccuracyLong>0.30</AccuracyLong>
-			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
 			<Steel>30</Steel>
@@ -43,7 +43,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_FOTTZS_Glock13D</defaultProjectile>
-				<warmupTime>0.3</warmupTime>
+				<warmupTime>0.7</warmupTime>
 				<range>25.9</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
