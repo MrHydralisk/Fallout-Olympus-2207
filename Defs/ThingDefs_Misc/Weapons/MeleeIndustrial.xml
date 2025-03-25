@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>MeleeWeapon_FOTTZS_Hyperion</defName>
+		<label>Hyperion</label>
+		<description>This spear is powered by unknown means, but seemingly pierces armor with ease. Typically worn by brave Olympians.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Spear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<weaponTags Inherit="false">
+			<!-- <li>NeolithicMeleeAdvanced</li> -->
+			<!-- <li>MedievalMeleeAdvanced</li> -->
+			<!-- <li>Spear</li> -->
+		</weaponTags>
+		<weaponClasses Inherit="false">
+			<!-- <li>Neolithic</li> -->
+		</weaponClasses>
+		<thingSetMakerTags Inherit="false">
+			<!-- <li>RewardStandardQualitySuper</li> -->
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>75</costStuffCount>
+		<recipeMaker>
+			<!-- <researchPrerequisite>LongBlades</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>4</Crafting> -->
+			<!-- </skillRequirements> -->
+			<displayPriority>2207</displayPriority>
+		</recipeMaker>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>20</power>
+				<armorPenetration>0.75</armorPenetration>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+  
+  
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+		<defName>MeleeWeapon_FOTTZS_Gotterdammerung</defName>
+		<label>Gotterdammerung</label>
+		<description>This powered hammer is large and unwieldy, but smashes a foes skull with ease.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Mace</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<weaponClasses Inherit="false">
+			<!-- <li>Melee</li> -->
+		</weaponClasses>
+		<weaponTags Inherit="false">
+			<!-- <li>MedievalMeleeDecent</li> -->
+		</weaponTags>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>125</costStuffCount>
+		<recipeMaker>
+			<!-- <researchPrerequisite>LongBlades</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+			<!-- <Crafting>4</Crafting> -->
+			<!-- </skillRequirements> -->
+			<displayPriority>2207</displayPriority>
+		</recipeMaker>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>36</power>
+				<armorPenetration>0.75</armorPenetration>
+				<cooldownTime>3.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+  
+</Defs>
