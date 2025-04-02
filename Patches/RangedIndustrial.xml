@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+	<operations>
+			
+	<!-- Glock 13-D -->
+	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Gun_FOTTZS_Glock13D</defName>
+		<statBases>
+			<SightsEfficiency>0.70</SightsEfficiency>
+			<ShotSpread>0.17</ShotSpread>
+			<SwayFactor>1.00</SwayFactor>
+			<Bulk>1.90</Bulk>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
+		</statBases>
+
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_10mmAuto_FMJ</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>14</range>
+			<soundCast>Shot_Autopistol</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>13</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_10mmAuto</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Glock13D"]/weaponTags</xpath>
+		<value>
+			<li>CE_OneHandedWeapon</li>
+		</value>
+	</li>
+		<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Glock13D" or defName="Gun_FOTTZS_Blessing"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>grip</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>2</power>
+					<cooldownTime>1.54</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>muzzle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<cooldownTime>1.54</cooldownTime>
+					<armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</li>
+	
+	<!-- Blessing -->
+	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Gun_FOTTZS_Blessing</defName>
+		<statBases>
+			<SightsEfficiency>0.70</SightsEfficiency>
+			<ShotSpread>0.17</ShotSpread>
+			<SwayFactor>1.00</SwayFactor>
+			<Bulk>2.79</Bulk>
+			<Mass>1.39</Mass>
+			<RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
+		</statBases>
+
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>15</range>
+			<soundCast>Shot_Revolver</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>5</magazineSize>
+			<reloadTime>4.6</reloadTime>
+			<ammoSet>AmmoSet_44Magnum</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Blessing"]/weaponTags</xpath>
+		<value>
+			<li>CE_OneHandedWeapon</li>
+		</value>
+	</li>
+		
+		<!-- UX-30 -->
+	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Gun_FOTTZS_30UX</defName>
+		<statBases>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.07</ShotSpread>
+			<SwayFactor>1.03</SwayFactor>
+			<Bulk>11.00</Bulk>
+			<Mass>3.8</Mass>
+			<RangedWeapon_Cooldown>1.38</RangedWeapon_Cooldown>
+		</statBases>
+
+		<Properties>
+		    <recoilAmount>1.50</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_473x33mmCaseless_FMJ</defaultProjectile>
+			<warmupTime>0.7</warmupTime>
+			<range>50</range>
+			<burstShotCount>5</burstShotCount>
+			<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+			<soundCast>Shot_AssaultRifle</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>30</magazineSize>
+			<reloadTime>4.6</reloadTime>
+			<ammoSet>AmmoSet_473x33mmCaseless</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>5</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_30UX"]/graphicData</xpath>
+		<value>
+			<drawSize>(1.2,1.2)</drawSize>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_30UX"]</xpath>
+		<value>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawOffset>0.08,0.0</DrawOffset>
+				<CasingOffset>-0.05,0</CasingOffset>
+			</li>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_30UX"]/tools</xpath>
+		<value>
+			<tools>
+		    	<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+					    <li>Blunt</li>
+						<li>Poke</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</li>
+	
+		<!-- M530 Lance -->
+	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Gun_FOTTZS_M530Lance</defName>
+		<statBases>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.4</ShotSpread>
+			<SwayFactor>1.4</SwayFactor>
+			<Bulk>8.00</Bulk>
+			<Mass>12.8</Mass>
+			<RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+		</statBases>
+
+		<Properties>
+		    <recoilAmount>1.50</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<warmupTime>2.7</warmupTime>
+			<range>40</range>
+			<burstShotCount>10</burstShotCount>
+			<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+			<soundCast>Shot_AssaultRifle</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>35</magazineSize>
+			<reloadTime>5.6</reloadTime>
+			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>5</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_M530Lance"]/graphicData</xpath>
+		<value>
+			<drawSize>(1.2,1.2)</drawSize>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_M530Lance"]</xpath>
+		<value>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawOffset>0.08,0.0</DrawOffset>
+				<CasingOffset>-0.05,0</CasingOffset>
+			</li>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_M530Lance"]/tools</xpath>
+		<value>
+			<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2.6</cooldownTime>
+				<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+			</li>
+			</tools>
+		</value>
+	</li>
+	
+			<!-- Balalaika -->
+	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Gun_FOTTZS_Balalaika</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
+			<SightsEfficiency>2.6</SightsEfficiency>
+			<ShotSpread>0.03</ShotSpread>
+			<SwayFactor>1.05</SwayFactor>
+			<Bulk>10.00</Bulk>
+			<Mass>14.8</Mass>
+		</statBases>
+
+		<Properties>
+		    <recoilAmount>1.50</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_50BMG_FMJ</defaultProjectile>
+			<warmupTime>1.75</warmupTime>
+			<range>80</range>
+			<soundCast>Shot_SniperRifle</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>6</magazineSize>
+			<reloadTime>4.6</reloadTime>
+			<ammoSet>AmmoSet_50BMG</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Balalaika"]/graphicData</xpath>
+		<value>
+			<drawSize>(1.35,1.35)</drawSize>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Balalaika"]</xpath>
+		<value>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawOffset>0.2,0.0</DrawOffset>
+				<CasingOffset>-0.1,0.04</CasingOffset>
+			</li>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_Balalaika"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>2.02</cooldownTime>
+					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>muzzle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</li>
+	
+	
+			<!-- Nyx -->
+	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Gun_FOTTZS_Nyx</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
+			<SightsEfficiency>2.6</SightsEfficiency>
+			<ShotSpread>0.03</ShotSpread>
+			<SwayFactor>1.05</SwayFactor>
+			<Bulk>12.00</Bulk>
+			<Mass>16.8</Mass>
+		</statBases>
+
+		<Properties>
+		    <recoilAmount>1.70</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_20x102mmNATO_AP</defaultProjectile>
+			<warmupTime>2.05</warmupTime>
+			<range>80</range>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+			<soundCast>Shot_SniperRifle</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>4</magazineSize>
+			<reloadTime>2.6</reloadTime>
+			<ammoSet>AmmoSet_20x102mmNATO</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Nyx"]/graphicData</xpath>
+		<value>
+			<drawSize>(1.35,1.35)</drawSize>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Nyx"]</xpath>
+		<value>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawOffset>0.2,0.0</DrawOffset>
+				<CasingOffset>-0.1,0.04</CasingOffset>
+			</li>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_Nyx"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>2.02</cooldownTime>
+					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>muzzle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</li>
+	
+		
+			<!-- SK2 Thule -->
+	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Gun_FOTTZS_SK2Thule</defName>
+		<statBases>
+			<SwayFactor>2.0</SwayFactor>
+			<ShotSpread>0.20</ShotSpread>
+			<SightsEfficiency>1</SightsEfficiency>
+			<RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+			<Bulk>11.00</Bulk>
+			<Mass>20.8</Mass>
+		</statBases>
+
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_127x108mm_FMJ</defaultProjectile>
+			<warmupTime>2.75</warmupTime>
+			<range>45</range>
+			<burstShotCount>6</burstShotCount>
+			<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+			<soundCast>ThumpCannon_Fire</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>60</magazineSize>
+			<reloadTime>2.6</reloadTime>
+			<ammoSet>AmmoSet_127x108mm</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_SK2Thule"]/graphicData</xpath>
+		<value>
+			<drawSize>(1.35,1.35)</drawSize>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_SK2Thule"]</xpath>
+		<value>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawOffset>0.2,0.0</DrawOffset>
+				<CasingOffset>-0.1,0.04</CasingOffset>
+			</li>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_SK2Thule"]/tools</xpath>
+		<value>
+			<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2.6</cooldownTime>
+				<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+			</li>
+			</tools>
+		</value>
+	</li>
+	
+				<!-- Atlas -->
+	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Gun_FOTTZS_Atlas</defName>
+		<statBases>
+			<SwayFactor>2.0</SwayFactor>
+			<ShotSpread>0.30</ShotSpread>
+			<SightsEfficiency>1</SightsEfficiency>
+			<RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+			<Bulk>9.00</Bulk>
+			<Mass>16.8</Mass>
+		</statBases>
+
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<warmupTime>2.75</warmupTime>
+			<range>40</range>
+			<burstShotCount>25</burstShotCount>
+			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<soundCast>Shot_Minigun</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>300</magazineSize>
+			<reloadTime>7.6</reloadTime>
+			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>25</aimedBurstShotCount>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Atlas"]/graphicData</xpath>
+		<value>
+			<drawSize>(1.35,1.35)</drawSize>
+		</value>
+	</li>
+
+	<li Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Atlas"]</xpath>
+		<value>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawOffset>0.2,0.0</DrawOffset>
+				<CasingOffset>-0.1,0.04</CasingOffset>
+			</li>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_Atlas"]/tools</xpath>
+		<value>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2.6</cooldownTime>
+				<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		</value>
+	</li>
+	
+	</operations>
+	</match>
+ </Operation>		
+	
+	
+	
+</Patch>
