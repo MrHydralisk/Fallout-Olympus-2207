@@ -1,21 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Combat Extended</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-	<operations>
+
 	
 	<!--Power Armor X16C Tartarus-->
-	<li Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16CTartarusArmor"]/equippedStatOffsets</xpath>
 						<value>
 								<CarryWeight>85</CarryWeight>
 								<CarryBulk>45</CarryBulk>
 						</value>
-					</li>
-	<li Class="PatchOperationReplace">
+	</Operation>
+	<Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16CTartarusArmor"]/statBases</xpath>
                     <value>
 						<statBases>
@@ -33,10 +28,10 @@
 			                <WornBulk>18</WornBulk>
 						</statBases>
                     </value>
-				</li>				
+	</Operation>			
 					
 	<!--Combat Suit Phalanx-->
-	 <li Class="PatchOperationReplace">
+	<Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_CSPhalanxArmor"]/statBases</xpath>
                     <value>
 						<statBases>
@@ -53,7 +48,7 @@
 			                <WornBulk>6</WornBulk>
 						</statBases>
                     </value>
-                </li>
+    </Operation>
 		<!--<li Class="PatchOperationAdd"> ***DRKApparelCombatArmorMkII does not have these parameters***
 
 					<xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_CSPhalanxArmor"]/equippedStatOffsets</xpath>
@@ -63,7 +58,7 @@
 					</value>
 		</li>-->
 		<!--Power Armor X16S Thanatos-->
-	 <li Class="PatchOperationReplace">
+	<Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16SThanatosArmor"]/statBases</xpath>
                     <value>
 						<statBases>
@@ -81,16 +76,16 @@
 			                <WornBulk>16</WornBulk>
 						</statBases>
                     </value>
-				</li>
-		<li Class="PatchOperationAdd">
+	</Operation>
+	<Operation Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16SThanatosArmor"]/equippedStatOffsets</xpath>
 						<value>
 								<CarryWeight>85</CarryWeight>
 								<CarryBulk>35</CarryBulk>
 						</value>
-		</li>
+	</Operation>
 		<!--Combat Suit Frog-->
-		 <li Class="PatchOperationReplace">
+	<Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_CSFrogArmor"]/statBases</xpath>
                     <value>
 						<statBases>
@@ -108,10 +103,8 @@
 			                <WornBulk>6</WornBulk>
 						</statBases>
                     </value>
-                </li>
-	</operations>
-	</match>
- </Operation>		
+    </Operation>
+	
 	
 	
 	

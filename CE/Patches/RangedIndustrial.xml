@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Combat Extended</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-	<operations>
+
 			
 	<!-- Glock 13-D -->
-	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	 <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_Glock13D</defName>
 		<statBases>
 			<SightsEfficiency>0.70</SightsEfficiency>
@@ -38,14 +33,17 @@
 		<FireModes>
 			<aiAimMode>Snapshot</aiAimMode>
 		</FireModes>
-	</li>
-	<li Class="PatchOperationAdd">
+	</Operation>
+	
+	
+	 <Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Glock13D"]/weaponTags</xpath>
 		<value>
 			<li>CE_OneHandedWeapon</li>
 		</value>
-	</li>
-		<li Class="PatchOperationReplace">
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Glock13D" or defName="Gun_FOTTZS_Blessing"]/tools</xpath>
 		<value>
 			<tools>
@@ -72,10 +70,10 @@
 				</li>
 			</tools>
 		</value>
-	</li>
+	</Operation>
 	
 	<!-- Blessing -->
-	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_Blessing</defName>
 		<statBases>
 			<SightsEfficiency>0.70</SightsEfficiency>
@@ -106,16 +104,17 @@
 			<aiUseBurstMode>FALSE</aiUseBurstMode>
 			<aiAimMode>Snapshot</aiAimMode>
 		</FireModes>
-	</li>
-	<li Class="PatchOperationAdd">
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Blessing"]/weaponTags</xpath>
 		<value>
 			<li>CE_OneHandedWeapon</li>
 		</value>
-	</li>
+	</Operation>
 		
 		<!-- UX-30 -->
-	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_30UX</defName>
 		<statBases>
 			<SightsEfficiency>1</SightsEfficiency>
@@ -150,15 +149,16 @@
 			<aiUseBurstMode>TRUE</aiUseBurstMode>
 			<aiAimMode>AimedShot</aiAimMode>
 		</FireModes>
-	</li>
-	<li Class="PatchOperationAdd">
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_30UX"]/graphicData</xpath>
 		<value>
 			<drawSize>(1.2,1.2)</drawSize>
 		</value>
-	</li>
+	</Operation>
 
-	<li Class="PatchOperationAddModExtension">
+	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_30UX"]</xpath>
 		<value>
 			<li Class="CombatExtended.GunDrawExtension">
@@ -166,8 +166,8 @@
 				<CasingOffset>-0.05,0</CasingOffset>
 			</li>
 		</value>
-	</li>
-	<li Class="PatchOperationReplace">
+	</Operation>
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_30UX"]/tools</xpath>
 		<value>
 			<tools>
@@ -195,10 +195,10 @@
 				</li>
 			</tools>
 		</value>
-	</li>
+	</Operation>
 	
 		<!-- M530 Lance -->
-	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_M530Lance</defName>
 		<statBases>
 			<SightsEfficiency>1</SightsEfficiency>
@@ -233,15 +233,15 @@
 			<aiUseBurstMode>TRUE</aiUseBurstMode>
 			<aiAimMode>AimedShot</aiAimMode>
 		</FireModes>
-	</li>
-	<li Class="PatchOperationAdd">
+	</Operation>
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_M530Lance"]/graphicData</xpath>
 		<value>
 			<drawSize>(1.2,1.2)</drawSize>
 		</value>
-	</li>
+	</Operation>
 
-	<li Class="PatchOperationAddModExtension">
+	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_M530Lance"]</xpath>
 		<value>
 			<li Class="CombatExtended.GunDrawExtension">
@@ -249,8 +249,8 @@
 				<CasingOffset>-0.05,0</CasingOffset>
 			</li>
 		</value>
-	</li>
-	<li Class="PatchOperationReplace">
+	</Operation>
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_M530Lance"]/tools</xpath>
 		<value>
 			<tools>
@@ -266,10 +266,10 @@
 			</li>
 			</tools>
 		</value>
-	</li>
+	</Operation>
 	
 			<!-- Balalaika -->
-	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_Balalaika</defName>
 		<statBases>
 			<RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
@@ -300,15 +300,15 @@
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
 		</FireModes>
-	</li>
-	<li Class="PatchOperationAdd">
+	</Operation>
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Balalaika"]/graphicData</xpath>
 		<value>
 			<drawSize>(1.35,1.35)</drawSize>
 		</value>
-	</li>
+	</Operation>
 
-	<li Class="PatchOperationAddModExtension">
+	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Balalaika"]</xpath>
 		<value>
 			<li Class="CombatExtended.GunDrawExtension">
@@ -316,8 +316,8 @@
 				<CasingOffset>-0.1,0.04</CasingOffset>
 			</li>
 		</value>
-	</li>
-	<li Class="PatchOperationReplace">
+	</Operation>
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_Balalaika"]/tools</xpath>
 		<value>
 			<tools>
@@ -354,11 +354,11 @@
 				</li>
 			</tools>
 		</value>
-	</li>
+	</Operation>
 	
 	
 			<!-- Nyx -->
-	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_Nyx</defName>
 		<statBases>
 			<RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
@@ -391,15 +391,15 @@
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
 		</FireModes>
-	</li>
-	<li Class="PatchOperationAdd">
+	</Operation>
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Nyx"]/graphicData</xpath>
 		<value>
 			<drawSize>(1.35,1.35)</drawSize>
 		</value>
-	</li>
+	</Operation>
 
-	<li Class="PatchOperationAddModExtension">
+	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Nyx"]</xpath>
 		<value>
 			<li Class="CombatExtended.GunDrawExtension">
@@ -407,8 +407,8 @@
 				<CasingOffset>-0.1,0.04</CasingOffset>
 			</li>
 		</value>
-	</li>
-	<li Class="PatchOperationReplace">
+	</Operation>
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_Nyx"]/tools</xpath>
 		<value>
 			<tools>
@@ -445,11 +445,11 @@
 				</li>
 			</tools>
 		</value>
-	</li>
+	</Operation>
 	
 		
 			<!-- SK2 Thule -->
-	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_SK2Thule</defName>
 		<statBases>
 			<SwayFactor>2.0</SwayFactor>
@@ -481,15 +481,15 @@
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
 		</FireModes>
-	</li>
-	<li Class="PatchOperationAdd">
+	</Operation>
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_SK2Thule"]/graphicData</xpath>
 		<value>
 			<drawSize>(1.35,1.35)</drawSize>
 		</value>
-	</li>
+	</Operation>
 
-	<li Class="PatchOperationAddModExtension">
+	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_SK2Thule"]</xpath>
 		<value>
 			<li Class="CombatExtended.GunDrawExtension">
@@ -497,8 +497,8 @@
 				<CasingOffset>-0.1,0.04</CasingOffset>
 			</li>
 		</value>
-	</li>
-	<li Class="PatchOperationReplace">
+	</Operation>
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_SK2Thule"]/tools</xpath>
 		<value>
 			<tools>
@@ -514,10 +514,10 @@
 			</li>
 			</tools>
 		</value>
-	</li>
+	</Operation>
 	
 				<!-- Atlas -->
-	<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_Atlas</defName>
 		<statBases>
 			<SwayFactor>2.0</SwayFactor>
@@ -550,15 +550,15 @@
 			<aimedBurstShotCount>25</aimedBurstShotCount>
 			<aiAimMode>Snapshot</aiAimMode>
 		</FireModes>
-	</li>
-	<li Class="PatchOperationAdd">
+	</Operation>
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Atlas"]/graphicData</xpath>
 		<value>
 			<drawSize>(1.35,1.35)</drawSize>
 		</value>
-	</li>
+	</Operation>
 
-	<li Class="PatchOperationAddModExtension">
+	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Atlas"]</xpath>
 		<value>
 			<li Class="CombatExtended.GunDrawExtension">
@@ -566,8 +566,8 @@
 				<CasingOffset>-0.1,0.04</CasingOffset>
 			</li>
 		</value>
-	</li>
-	<li Class="PatchOperationReplace">
+	</Operation>
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_Atlas"]/tools</xpath>
 		<value>
 		<tools>
@@ -583,11 +583,9 @@
 			</li>
 		</tools>
 		</value>
-	</li>
+	</Operation>
 	
-	</operations>
-	</match>
- </Operation>		
+
 	
 	
 	

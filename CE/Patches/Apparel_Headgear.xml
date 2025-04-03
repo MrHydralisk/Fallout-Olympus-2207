@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Combat Extended</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-	<operations>
+
 	<!--   ================ Advanced Power Armor Mk2 Helmet ================ 
 							<WorkToMake>29000</WorkToMake>
 							<MaxHitPoints>280</MaxHitPoints>
@@ -19,7 +14,7 @@
 							<EquipDelay>3</EquipDelay>
 							-->
 			<!-- Combat Helmet Phalanx  DRKApparelAPA_HelmMKII-->
-	<li Class="PatchOperationReplace">
+<Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_CSPhalanxHelmet"]/statBases</xpath>
                     <value>
 						<statBases>
@@ -37,10 +32,10 @@
 		                	<WornBulk>3</WornBulk>
 						</statBases>
                     </value>
-	</li>
+</Operation>
 		
 		  <!-- Combat Helmet Frog  DRKApparelAPA_HelmMKII-->
-	 <li Class="PatchOperationReplace">
+<Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_CSFrogHelmet"]/statBases</xpath>
                     <value>
 						<statBases>
@@ -58,10 +53,10 @@
 		                	<WornBulk>3</WornBulk>
 						</statBases>
                     </value>
-		</li>
+</Operation>
 		
 			  <!-- Power Helmet X16C Tartarus  DRKApparelAPA_HelmMKII-->
-	 <li Class="PatchOperationReplace">
+<Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16CTartarusHelmet"]/statBases</xpath>
                     <value>
 						<statBases>
@@ -79,7 +74,7 @@
 		                	<WornBulk>3</WornBulk>
 						</statBases>
                     </value>
-		</li>
+</Operation>
 		<!-- ================ x01 mk6 Power Armor Helmet ================
                
 							<WorkToMake>31000</WorkToMake>
@@ -94,7 +89,7 @@
 							<EquipDelay>4</EquipDelay>
 				-->
 			  <!-- Power Helmet X16S Tartarus DRKApparelxt60_Helm (slightly higher)-->
-	 <li Class="PatchOperationReplace">
+<Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16SThanatosHelmet"]/statBases</xpath>
                     <value>
 						<statBases>
@@ -112,10 +107,8 @@
 		                	<WornBulk>3.5</WornBulk>
 						</statBases>
                     </value>
-		</li>
-	</operations>
-	</match>
- </Operation>		
+</Operation>
+
 	
 	
 	
