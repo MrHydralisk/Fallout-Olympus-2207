@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	
+	<!--Power Armor X16C Tartarus-->
+	<Operation Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16CTartarusArmor"]/equippedStatOffsets</xpath>
+						<value>
+								<CarryWeight>85</CarryWeight>
+								<CarryBulk>45</CarryBulk>
+						</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16CTartarusArmor"]/statBases</xpath>
+                    <value>
+						<statBases>
+							<WorkToMake>55000</WorkToMake>
+							<MaxHitPoints>655</MaxHitPoints>
+							<Mass>15</Mass>
+							<Flammability>0.4</Flammability>
+							<ArmorRating_Sharp>35</ArmorRating_Sharp>
+							<ArmorRating_Blunt>70</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.55</ArmorRating_Heat>
+							<Insulation_Cold>40</Insulation_Cold>
+							<Insulation_Heat>40</Insulation_Heat>
+							<EquipDelay>15</EquipDelay>
+							<Bulk>18</Bulk>
+			                <WornBulk>18</WornBulk>
+						</statBases>
+                    </value>
+	</Operation>			
+					
+	<!--Combat Suit Phalanx-->
+	<Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_CSPhalanxArmor"]/statBases</xpath>
+                    <value>
+						<statBases>
+							<WorkToMake>40000</WorkToMake>
+							<MaxHitPoints>525</MaxHitPoints>
+							<Mass>5</Mass>
+							<Flammability>0.4</Flammability>
+							<ArmorRating_Sharp>16</ArmorRating_Sharp>
+							<ArmorRating_Blunt>35</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.16</ArmorRating_Heat>
+							<Insulation_Cold>15</Insulation_Cold>
+							<EquipDelay>5</EquipDelay>
+							<Bulk>6</Bulk>
+			                <WornBulk>6</WornBulk>
+						</statBases>
+                    </value>
+    </Operation>
+		<!--<li Class="PatchOperationAdd"> ***DRKApparelCombatArmorMkII does not have these parameters***
+
+					<xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_CSPhalanxArmor"]/equippedStatOffsets</xpath>
+					<value>
+							<CarryWeight>35</CarryWeight>
+							<CarryBulk>15</CarryBulk>
+					</value>
+		</li>-->
+		<!--Power Armor X16S Thanatos-->
+	<Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16SThanatosArmor"]/statBases</xpath>
+                    <value>
+						<statBases>
+							<WorkToMake>60000</WorkToMake>
+							<MaxHitPoints>700</MaxHitPoints>
+							<Mass>15</Mass>
+							<Flammability>0.2</Flammability>
+							<ArmorRating_Sharp>38</ArmorRating_Sharp>
+							<ArmorRating_Blunt>81</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.58</ArmorRating_Heat>
+							<Insulation_Cold>45</Insulation_Cold>
+							<Insulation_Heat>45</Insulation_Heat>
+							<EquipDelay>17</EquipDelay>
+							<Bulk>16</Bulk>
+			                <WornBulk>16</WornBulk>
+						</statBases>
+                    </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16SThanatosArmor"]/equippedStatOffsets</xpath>
+						<value>
+								<CarryWeight>85</CarryWeight>
+								<CarryBulk>35</CarryBulk>
+						</value>
+	</Operation>
+		<!--Combat Suit Frog-->
+	<Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_CSFrogArmor"]/statBases</xpath>
+                    <value>
+						<statBases>
+							<WorkToMake>40000</WorkToMake>
+							<MaxHitPoints>530</MaxHitPoints>
+							<Mass>5</Mass>
+							<Flammability>0.4</Flammability>
+							<ArmorRating_Sharp>16</ArmorRating_Sharp>
+							<ArmorRating_Blunt>35</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.16</ArmorRating_Heat>
+							<Insulation_Cold>25</Insulation_Cold>
+							<Insulation_Heat>25</Insulation_Heat>
+							<EquipDelay>5</EquipDelay>
+							<Bulk>6</Bulk>
+			                <WornBulk>6</WornBulk>
+						</statBases>
+                    </value>
+    </Operation>
+	
+	
+	
+	
+</Patch>

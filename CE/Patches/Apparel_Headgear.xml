@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--   ================ Advanced Power Armor Mk2 Helmet ================ 
+							<WorkToMake>29000</WorkToMake>
+							<MaxHitPoints>280</MaxHitPoints>
+							<Mass>1.4</Mass>
+							<Flammability>0.4</Flammability>
+							<ArmorRating_Sharp>27</ArmorRating_Sharp>
+							<ArmorRating_Blunt>61</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.50</ArmorRating_Heat>
+							<Insulation_Cold>7</Insulation_Cold>
+							<Insulation_Heat>10</Insulation_Heat>
+							<EquipDelay>3</EquipDelay>
+							-->
+			<!-- Combat Helmet Phalanx  DRKApparelAPA_HelmMKII-->
+<Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_CSPhalanxHelmet"]/statBases</xpath>
+                    <value>
+						<statBases>
+							<WorkToMake>29000</WorkToMake>
+							<MaxHitPoints>250</MaxHitPoints>
+							<Mass>1.4</Mass>
+							<Flammability>0.4</Flammability>
+							<ArmorRating_Sharp>25</ArmorRating_Sharp>
+							<ArmorRating_Blunt>60</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.50</ArmorRating_Heat>
+							<Insulation_Cold>15</Insulation_Cold>
+							<Insulation_Heat>10</Insulation_Heat>
+							<EquipDelay>6</EquipDelay>
+							<Bulk>2</Bulk>
+		                	<WornBulk>3</WornBulk>
+						</statBases>
+                    </value>
+</Operation>
+		
+		  <!-- Combat Helmet Frog  DRKApparelAPA_HelmMKII-->
+<Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_CSFrogHelmet"]/statBases</xpath>
+                    <value>
+						<statBases>
+							<WorkToMake>17000</WorkToMake>
+							<MaxHitPoints>280</MaxHitPoints>
+							<Mass>1.1</Mass>
+							<Flammability>0.6</Flammability>
+							<ArmorRating_Sharp>14</ArmorRating_Sharp>
+							<ArmorRating_Blunt>29</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.32</ArmorRating_Heat>
+							<Insulation_Cold>25</Insulation_Cold>
+							<Insulation_Heat>25</Insulation_Heat>
+							<EquipDelay>4</EquipDelay>
+							<Bulk>2</Bulk>
+		                	<WornBulk>3</WornBulk>
+						</statBases>
+                    </value>
+</Operation>
+		
+			  <!-- Power Helmet X16C Tartarus  DRKApparelAPA_HelmMKII-->
+<Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16CTartarusHelmet"]/statBases</xpath>
+                    <value>
+						<statBases>
+							<WorkToMake>17000</WorkToMake>
+							<MaxHitPoints>280</MaxHitPoints>
+							<Mass>1.1</Mass>
+							<Flammability>0.6</Flammability>
+							<ArmorRating_Sharp>16</ArmorRating_Sharp>
+							<ArmorRating_Blunt>30</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.32</ArmorRating_Heat>
+							<Insulation_Cold>40</Insulation_Cold>
+							<Insulation_Heat>40</Insulation_Heat>
+							<EquipDelay>4</EquipDelay>
+							<Bulk>2</Bulk>
+		                	<WornBulk>3</WornBulk>
+						</statBases>
+                    </value>
+</Operation>
+		<!-- ================ x01 mk6 Power Armor Helmet ================
+               
+							<WorkToMake>31000</WorkToMake>
+							<MaxHitPoints>300</MaxHitPoints>
+							<Mass>1.9</Mass>
+							<Flammability>0.2</Flammability>
+							<ArmorRating_Sharp>32</ArmorRating_Sharp>
+							<ArmorRating_Blunt>72</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.55</ArmorRating_Heat>
+							<Insulation_Cold>15</Insulation_Cold>
+							<Insulation_Heat>15</Insulation_Heat>
+							<EquipDelay>4</EquipDelay>
+				-->
+			  <!-- Power Helmet X16S Tartarus DRKApparelxt60_Helm (slightly higher)-->
+<Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "Apparel_FOTTZS_X16SThanatosHelmet"]/statBases</xpath>
+                    <value>
+						<statBases>
+							<WorkToMake>31500</WorkToMake>
+							<MaxHitPoints>310</MaxHitPoints>
+							<Mass>1.9</Mass>
+							<Flammability>0.2</Flammability>
+							<ArmorRating_Sharp>35</ArmorRating_Sharp>
+							<ArmorRating_Blunt>78</ArmorRating_Blunt>
+							<ArmorRating_Heat>0.55</ArmorRating_Heat>
+							<Insulation_Cold>45</Insulation_Cold>
+							<Insulation_Heat>45</Insulation_Heat>
+							<EquipDelay>4</EquipDelay>
+							<Bulk>2.5</Bulk>
+		                	<WornBulk>3.5</WornBulk>
+						</statBases>
+                    </value>
+</Operation>
+
+	
+	
+	
+</Patch>

@@ -2,5 +2,7 @@
 <loadFolders>
 	<v1.5>
 		<li>/</li>
+		 <li IfModActive="CETeam.CombatExtended">CE</li>
+         <li IfModActive="CETeam.CombatExtended_Development">CE</li>
 	</v1.5>
 </loadFolders>
