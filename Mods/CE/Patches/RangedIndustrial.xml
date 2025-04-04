@@ -3,7 +3,7 @@
 
 			
 	<!-- Glock 13-D -->
-	 <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_Glock13D</defName>
 		<statBases>
 			<SightsEfficiency>0.70</SightsEfficiency>
@@ -36,7 +36,7 @@
 	</Operation>
 	
 	
-	 <Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Gun_FOTTZS_Glock13D"]/weaponTags</xpath>
 		<value>
 			<li>CE_OneHandedWeapon</li>
@@ -113,7 +113,7 @@
 		</value>
 	</Operation>
 		
-		<!-- UX-30 -->
+	<!-- UX-30 -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_30UX</defName>
 		<statBases>
@@ -126,7 +126,7 @@
 		</statBases>
 
 		<Properties>
-		    <recoilAmount>1.50</recoilAmount>
+			<recoilAmount>1.50</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_473x33mmCaseless_FMJ</defaultProjectile>
@@ -171,7 +171,7 @@
 		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_30UX"]/tools</xpath>
 		<value>
 			<tools>
-		    	<li Class="CombatExtended.ToolCE">
+				<li Class="CombatExtended.ToolCE">
 					<label>stock</label>
 					<capacities>
 						<li>Blunt</li>
@@ -185,7 +185,7 @@
 				<li Class="CombatExtended.ToolCE">
 					<label>barrel</label>
 					<capacities>
-					    <li>Blunt</li>
+						<li>Blunt</li>
 						<li>Poke</li>
 					</capacities>
 					<power>9</power>
@@ -197,7 +197,7 @@
 		</value>
 	</Operation>
 	
-		<!-- M530 Lance -->
+	<!-- M530 Lance -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_M530Lance</defName>
 		<statBases>
@@ -210,7 +210,7 @@
 		</statBases>
 
 		<Properties>
-		    <recoilAmount>1.50</recoilAmount>
+			<recoilAmount>1.50</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
@@ -254,21 +254,21 @@
 		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_M530Lance"]/tools</xpath>
 		<value>
 			<tools>
-			<li Class="CombatExtended.ToolCE">
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>12</power>
-				<cooldownTime>2.6</cooldownTime>
-				<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
-				<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
-			</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>2.6</cooldownTime>
+					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
 			</tools>
 		</value>
 	</Operation>
 	
-			<!-- Balalaika -->
+	<!-- Balalaika -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_Balalaika</defName>
 		<statBases>
@@ -281,7 +281,7 @@
 		</statBases>
 
 		<Properties>
-		    <recoilAmount>1.50</recoilAmount>
+			<recoilAmount>1.50</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_50BMG_FMJ</defaultProjectile>
@@ -357,7 +357,7 @@
 	</Operation>
 	
 	
-			<!-- Nyx -->
+	<!-- Nyx -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_Nyx</defName>
 		<statBases>
@@ -370,7 +370,7 @@
 		</statBases>
 
 		<Properties>
-		    <recoilAmount>1.70</recoilAmount>
+			<recoilAmount>1.70</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_20x102mmNATO_AP</defaultProjectile>
@@ -448,7 +448,7 @@
 	</Operation>
 	
 		
-			<!-- SK2 Thule -->
+	<!-- SK2 Thule -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_SK2Thule</defName>
 		<statBases>
@@ -502,21 +502,21 @@
 		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_SK2Thule"]/tools</xpath>
 		<value>
 			<tools>
-			<li Class="CombatExtended.ToolCE">
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>12</power>
-				<cooldownTime>2.6</cooldownTime>
-				<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
-				<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
-			</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>2.6</cooldownTime>
+					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
 			</tools>
 		</value>
 	</Operation>
 	
-				<!-- Atlas -->
+	<!-- Atlas -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Gun_FOTTZS_Atlas</defName>
 		<statBases>
@@ -570,18 +570,18 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Gun_FOTTZS_Atlas"]/tools</xpath>
 		<value>
-		<tools>
-			<li Class="CombatExtended.ToolCE">
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>12</power>
-				<cooldownTime>2.6</cooldownTime>
-				<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
-				<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
-			</li>
-		</tools>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>2.6</cooldownTime>
+					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
+			</tools>
 		</value>
 	</Operation>
 	

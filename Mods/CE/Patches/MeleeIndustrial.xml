@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-			<!-- Hyperion -->
+	<!-- Hyperion -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="MeleeWeapon_FOTTZS_Hyperion"]/tools</xpath>
 		<value>
@@ -63,7 +63,7 @@
 		</value>
 	</Operation>
 	
-<!--Gotterdammerung-->
+	<!--Gotterdammerung-->
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="MeleeWeapon_FOTTZS_Gotterdammerung"]/tools</xpath>
