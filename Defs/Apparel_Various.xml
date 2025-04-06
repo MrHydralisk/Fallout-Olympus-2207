@@ -4,6 +4,7 @@
 	<ThingDef Name="ApparelArmorFOTTZSBase" ParentName="ArmorMachineableBase" Abstract="True">
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
+             <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<thingSetMakerTags>
@@ -188,7 +189,7 @@
 		<label>Power Armor X16S Thanatos</label>
 		<description>The X16S is an improvement upon the old X16C power armor. With thicker plating and a more robust frame, this is the peak of personal protection upon the field.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Thanatos/FOTTZS_Thanatos</texPath>
 		</graphicData>
 		<statBases>
 			<WorkToMake>75000</WorkToMake>
@@ -217,7 +218,7 @@
 			<!-- </skillRequirements> -->
 		</recipeMaker>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Thanatos/FOTTZS_Thanatos</wornGraphicPath>
 			<tags>
 				<!-- <li>SpacerMilitary</li> -->
 			</tags>
