@@ -4,7 +4,7 @@
 	<ThingDef Name="ApparelArmorFOTTZSBase" ParentName="ArmorMachineableBase" Abstract="True">
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-             <shaderType>CutoutComplex</shaderType>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<thingSetMakerTags>

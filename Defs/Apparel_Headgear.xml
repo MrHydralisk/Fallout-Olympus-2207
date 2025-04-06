@@ -4,7 +4,7 @@
 	<ThingDef Name="ApparelHelmetFOTTZSBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-             <shaderType>CutoutComplex</shaderType>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<!-- <generateCommonality>2</generateCommonality> -->
