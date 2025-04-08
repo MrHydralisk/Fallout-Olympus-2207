@@ -35,6 +35,7 @@
 				<li>3</li>
 			</forceEyesVisibleForRotations>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -151,7 +152,7 @@
 		<label>Power Helmet X16C Tartarus</label>
 		<description>Nicknamed the Tartarus because while being inside this highly advanced suit of power armor feels like having been buried alive. Grants high protection, but at a cost of mobility. Worn by the elite branch of Olympus security.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Tartarus/FOTTZS_TartarusH_ICO</texPath>
 		</graphicData>
 		<statBases>
 			<WorkToMake>26250</WorkToMake>
@@ -181,7 +182,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Tartarus/FOTTZS_TartarusH</wornGraphicPath>
 			<tags>
 				<!-- <li>SpacerMilitary</li> -->
 			</tags>
@@ -193,7 +194,7 @@
 		<label>Power Helmet X16S Thanatos</label>
 		<description>The X16S is an improvement upon the old X16C power armor. With thicker plating and a more robust frame, this is the peak of personal protection upon the field.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Thanatos/FOTTZS_ThanatosH</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Thanatos/FOTTZS_ThanatosH_ICO</texPath>
 		</graphicData>
 		<statBases>
 			<WorkToMake>28500</WorkToMake>
