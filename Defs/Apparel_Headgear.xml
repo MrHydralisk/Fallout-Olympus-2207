@@ -123,6 +123,9 @@
 			<Insulation_Heat>2.5</Insulation_Heat>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
 			<Plasteel>80</Plasteel>
