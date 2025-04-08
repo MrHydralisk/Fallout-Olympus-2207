@@ -75,7 +75,7 @@
 			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath>
 		</graphicData>
 		<statBases>
-			<WorkToMake>45000</WorkToMake>
+			<WorkToMake>40500</WorkToMake>
 			<MaxHitPoints>280</MaxHitPoints>
 			<Mass>9</Mass>
 			<Flammability>0.4</Flammability>
@@ -88,7 +88,7 @@
 		</statBases>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
-			<Plasteel>80</Plasteel>
+			<Plasteel>70</Plasteel>
 			<Uranium>10</Uranium>
 		</costList>
 		<recipeMaker>
@@ -198,7 +198,7 @@
 			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Thanatos/FOTTZS_Thanatos</texPath>
 		</graphicData>
 		<statBases>
-			<WorkToMake>75000</WorkToMake>
+			<WorkToMake>81500</WorkToMake>
 			<MaxHitPoints>400</MaxHitPoints>
 			<Mass>18</Mass>
 			<Flammability>0.4</Flammability>
@@ -214,8 +214,8 @@
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>6</ComponentSpacer>
-			<Plasteel>150</Plasteel>
-			<Uranium>50</Uranium>
+			<Plasteel>170</Plasteel>
+			<Uranium>55</Uranium>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisites>

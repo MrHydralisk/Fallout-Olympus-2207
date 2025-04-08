@@ -30,6 +30,9 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>75</costStuffCount>
+		<costList>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>FOTTZSOlympus</li>
@@ -88,6 +91,9 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>125</costStuffCount>
+		<costList>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>FOTTZSOlympus</li>

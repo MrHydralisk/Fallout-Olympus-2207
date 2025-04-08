@@ -73,7 +73,7 @@
 			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</texPath>
 		</graphicData>
 		<statBases>
-			<WorkToMake>15750</WorkToMake>
+			<WorkToMake>14150</WorkToMake>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Mass>1</Mass>
 			<Flammability>0.4</Flammability>
@@ -86,7 +86,7 @@
 		</statBases>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>30</Plasteel>
+			<Plasteel>25</Plasteel>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisites>
@@ -127,9 +127,8 @@
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>3</ComponentSpacer>
-			<Plasteel>80</Plasteel>
-			<Uranium>10</Uranium>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>30</Plasteel>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisites>
@@ -170,9 +169,8 @@
 			<MoveSpeed>-0.8</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>6</ComponentSpacer>
-			<Plasteel>150</Plasteel>
-			<Uranium>50</Uranium>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>50</Plasteel>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisites>
@@ -198,7 +196,7 @@
 			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Thanatos/FOTTZS_ThanatosH</texPath>
 		</graphicData>
 		<statBases>
-			<WorkToMake>26250</WorkToMake>
+			<WorkToMake>28500</WorkToMake>
 			<MaxHitPoints>180</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.4</Flammability>
@@ -213,9 +211,8 @@
 			<MoveSpeed>-0.9</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>6</ComponentSpacer>
-			<Plasteel>150</Plasteel>
-			<Uranium>50</Uranium>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>60</Plasteel>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisites>

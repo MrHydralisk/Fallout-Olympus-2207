@@ -118,7 +118,7 @@
 			<RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<Steel>30</Steel>
+			<Steel>40</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
@@ -208,8 +208,8 @@
 			<RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<Steel>60</Steel>
-			<ComponentIndustrial>7</ComponentIndustrial>
+			<Steel>65</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisites>
@@ -297,7 +297,7 @@
 			<RangedWeapon_Cooldown>2.10</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<Steel>60</Steel>
+			<Steel>65</Steel>
 			<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
@@ -383,8 +383,8 @@
 			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<Steel>60</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Steel>75</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisites>
@@ -474,8 +474,8 @@
 			<RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<Steel>60</Steel>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<Steel>65</Steel>
+			<ComponentIndustrial>9</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisites>
@@ -563,7 +563,7 @@
 		</statBases>
 		<costList>
 			<Steel>75</Steel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisites>
