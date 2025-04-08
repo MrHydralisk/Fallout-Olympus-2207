@@ -35,10 +35,9 @@
 				<li>FOTTZSOlympus</li>
 				<li>Machining</li>
 			</researchPrerequisites>
-			<!-- <researchPrerequisite>LongBlades</researchPrerequisite> -->
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>4</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<tools>
@@ -94,10 +93,9 @@
 				<li>FOTTZSOlympus</li>
 				<li>Machining</li>
 			</researchPrerequisites>
-			<!-- <researchPrerequisite>LongBlades</researchPrerequisite> -->
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>4</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<tools>

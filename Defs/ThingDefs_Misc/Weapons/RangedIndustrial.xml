@@ -36,9 +36,9 @@
 				<li>FOTTZSOlympus</li>
 				<li>BlowbackOperation</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>4</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<verbs>
@@ -126,9 +126,9 @@
 				<li>FOTTZSOlympus</li>
 				<li>Gunsmithing</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>3</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<verbs>
@@ -216,9 +216,9 @@
 				<li>FOTTZSOlympus</li>
 				<li>PrecisionRifling</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>6</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<verbs>
@@ -305,9 +305,9 @@
 				<li>FOTTZSOlympus</li>
 				<li>PrecisionRifling</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>6</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<verbs>
@@ -391,9 +391,9 @@
 				<li>FOTTZSOlympus</li>
 				<li>PrecisionRifling</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>5</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<verbs>
@@ -482,9 +482,9 @@
 				<li>FOTTZSOlympus</li>
 				<li>PrecisionRifling</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>7</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<verbs>
@@ -570,9 +570,9 @@
 				<li>FOTTZSOlympus</li>
 				<li>HeavyTurrets</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>6</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<verbs>
@@ -669,9 +669,9 @@
 				<li>FOTTZSOlympus</li>
 				<li>MultibarrelWeapons</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>7</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<verbs>

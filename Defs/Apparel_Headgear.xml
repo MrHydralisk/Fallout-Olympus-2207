@@ -17,9 +17,6 @@
 			<researchPrerequisites>
 				<li>FOTTZSOlympus</li>
 			</researchPrerequisites>
-			<!-- <recipeUsers Inherit="False"> -->
-			<!-- <li>FabricationBench</li> -->
-			<!-- </recipeUsers> -->
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
 		<apparel>
@@ -95,9 +92,9 @@
 			<researchPrerequisites>
 				<li>ReconArmor</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>7</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath>
@@ -135,9 +132,9 @@
 			<researchPrerequisites>
 				<li>ReconArmor</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>7</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmorHelmet/ReconHelmet</wornGraphicPath>
@@ -178,9 +175,9 @@
 			<researchPrerequisites>
 				<li>PoweredArmor</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>7</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
@@ -221,9 +218,9 @@
 			<researchPrerequisites>
 				<li>PoweredArmor</li>
 			</researchPrerequisites>
-			<!-- <skillRequirements> -->
-			<!-- <Crafting>7</Crafting> -->
-			<!-- </skillRequirements> -->
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Thanatos/FOTTZS_ThanatosH</wornGraphicPath>
