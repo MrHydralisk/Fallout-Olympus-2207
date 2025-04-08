@@ -32,7 +32,10 @@
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<!-- <researchPrerequisite>BlowbackOperation</researchPrerequisite> -->
+			<researchPrerequisites>
+				<li>FOTTZSOlympus</li>
+				<li>BlowbackOperation</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>4</Crafting> -->
 			<!-- </skillRequirements> -->
@@ -119,6 +122,10 @@
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
+			<researchPrerequisites>
+				<li>FOTTZSOlympus</li>
+				<li>Gunsmithing</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>3</Crafting> -->
 			<!-- </skillRequirements> -->
@@ -205,7 +212,10 @@
 			<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<!-- <researchPrerequisite>PrecisionRifling</researchPrerequisite> -->
+			<researchPrerequisites>
+				<li>FOTTZSOlympus</li>
+				<li>PrecisionRifling</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>6</Crafting> -->
 			<!-- </skillRequirements> -->
@@ -291,7 +301,10 @@
 			<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<!-- <researchPrerequisite>PrecisionRifling</researchPrerequisite> -->
+			<researchPrerequisites>
+				<li>FOTTZSOlympus</li>
+				<li>PrecisionRifling</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>6</Crafting> -->
 			<!-- </skillRequirements> -->
@@ -374,6 +387,10 @@
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
+			<researchPrerequisites>
+				<li>FOTTZSOlympus</li>
+				<li>PrecisionRifling</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>5</Crafting> -->
 			<!-- </skillRequirements> -->
@@ -461,7 +478,10 @@
 			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<!-- <researchPrerequisite>PrecisionRifling</researchPrerequisite> -->
+			<researchPrerequisites>
+				<li>FOTTZSOlympus</li>
+				<li>PrecisionRifling</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>7</Crafting> -->
 			<!-- </skillRequirements> -->
@@ -530,7 +550,7 @@
 			<!-- <li>RangedHeavy</li> -->
 		</weaponClasses>
 		<thingSetMakerTags Inherit="false">
-		<!-- <li>RewardStandardQualitySuper</li> -->
+			<!-- <li>RewardStandardQualitySuper</li> -->
 		</thingSetMakerTags>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
@@ -546,9 +566,12 @@
 			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<!-- <researchPrerequisite>GasOperation</researchPrerequisite> -->
+			<researchPrerequisites>
+				<li>FOTTZSOlympus</li>
+				<li>HeavyTurrets</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
-				<!-- <Crafting>6</Crafting> -->
+			<!-- <Crafting>6</Crafting> -->
 			<!-- </skillRequirements> -->
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>
@@ -623,7 +646,7 @@
 			<!-- <li>RangedHeavy</li> -->
 		</weaponClasses>
 		<thingSetMakerTags Inherit="false">
-		<!-- <li>RewardStandardQualitySuper</li> -->
+			<!-- <li>RewardStandardQualitySuper</li> -->
 		</thingSetMakerTags>
 		<statBases>
 			<WorkToMake>60000</WorkToMake>
@@ -642,9 +665,12 @@
 			<ComponentIndustrial>20</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<!-- <researchPrerequisite>MultibarrelWeapons</researchPrerequisite> -->
+			<researchPrerequisites>
+				<li>FOTTZSOlympus</li>
+				<li>MultibarrelWeapons</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
-				<!-- <Crafting>7</Crafting> -->
+			<!-- <Crafting>7</Crafting> -->
 			<!-- </skillRequirements> -->
 			<displayPriority>2207</displayPriority>
 		</recipeMaker>

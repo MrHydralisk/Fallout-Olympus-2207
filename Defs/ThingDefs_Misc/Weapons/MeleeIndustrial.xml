@@ -31,6 +31,10 @@
 		</stuffCategories>
 		<costStuffCount>75</costStuffCount>
 		<recipeMaker>
+			<researchPrerequisites>
+				<li>FOTTZSOlympus</li>
+				<li>Machining</li>
+			</researchPrerequisites>
 			<!-- <researchPrerequisite>LongBlades</researchPrerequisite> -->
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>4</Crafting> -->
@@ -77,8 +81,8 @@
 			<!-- <li>MedievalMeleeDecent</li> -->
 		</weaponTags>
 		<statBases>
-			<MarketValue>2000</MarketValue>
-			<Mass>2</Mass>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>5</Mass>
 		</statBases>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -86,6 +90,10 @@
 		</stuffCategories>
 		<costStuffCount>125</costStuffCount>
 		<recipeMaker>
+			<researchPrerequisites>
+				<li>FOTTZSOlympus</li>
+				<li>Machining</li>
+			</researchPrerequisites>
 			<!-- <researchPrerequisite>LongBlades</researchPrerequisite> -->
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>4</Crafting> -->

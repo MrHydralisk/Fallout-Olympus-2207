@@ -14,6 +14,9 @@
 		</tradeTags>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisites>
+				<li>FOTTZSOlympus</li>
+			</researchPrerequisites>
 			<!-- <recipeUsers Inherit="False"> -->
 			<!-- <li>FabricationBench</li> -->
 			<!-- </recipeUsers> -->
@@ -89,7 +92,9 @@
 			<Plasteel>30</Plasteel>
 		</costList>
 		<recipeMaker>
-			<!-- <researchPrerequisite>PoweredArmor</researchPrerequisite> -->
+			<researchPrerequisites>
+				<li>ReconArmor</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>7</Crafting> -->
 			<!-- </skillRequirements> -->
@@ -127,7 +132,9 @@
 			<Uranium>10</Uranium>
 		</costList>
 		<recipeMaker>
-			<!-- <researchPrerequisite>PoweredArmor</researchPrerequisite> -->
+			<researchPrerequisites>
+				<li>ReconArmor</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>7</Crafting> -->
 			<!-- </skillRequirements> -->
@@ -168,7 +175,9 @@
 			<Uranium>50</Uranium>
 		</costList>
 		<recipeMaker>
-			<!-- <researchPrerequisite>PoweredArmor</researchPrerequisite> -->
+			<researchPrerequisites>
+				<li>PoweredArmor</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>7</Crafting> -->
 			<!-- </skillRequirements> -->
@@ -209,7 +218,9 @@
 			<Uranium>50</Uranium>
 		</costList>
 		<recipeMaker>
-			<!-- <researchPrerequisite>PoweredArmor</researchPrerequisite> -->
+			<researchPrerequisites>
+				<li>PoweredArmor</li>
+			</researchPrerequisites>
 			<!-- <skillRequirements> -->
 			<!-- <Crafting>7</Crafting> -->
 			<!-- </skillRequirements> -->
