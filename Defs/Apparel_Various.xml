@@ -153,7 +153,7 @@
 		<label>Power Armor X16C Tartarus</label>
 		<description>Nicknamed the Tartarus because while being inside this highly advanced suit of power armor feels like having been buried alive. Grants high protection, but at a cost of mobility. Worn by the elite branch of Olympus security.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Tartarus/FOTTZS_Tartarus_ICO</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Tartarus/FOTTZS_Tartarus</texPath>
 		</graphicData>
 		<statBases>
 			<WorkToMake>75000</WorkToMake>
@@ -196,7 +196,7 @@
 		<label>Power Armor X16S Thanatos</label>
 		<description>The X16S is an improvement upon the old X16C power armor. With thicker plating and a more robust frame, this is the peak of personal protection upon the field.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Thanatos/FOTTZS_Thanatos_ICO</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Thanatos/FOTTZS_Thanatos</texPath>
 		</graphicData>
 		<statBases>
 			<WorkToMake>81500</WorkToMake>
