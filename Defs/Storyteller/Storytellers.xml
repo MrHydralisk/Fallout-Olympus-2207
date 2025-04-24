@@ -2,7 +2,7 @@
 <Defs>
 
 	<StorytellerDef ParentName="BaseStoryteller">
-		<defName>O</defName>
+		<defName>FOTTZS_O</defName>
 		<label>O F</label>
 		<description>...</description>
 		<portraitLarge>UI/HeroArt/Storytellers/O</portraitLarge>
