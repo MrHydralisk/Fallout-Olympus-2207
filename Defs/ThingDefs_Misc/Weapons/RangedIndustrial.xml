@@ -96,7 +96,7 @@
 		<label>Blessing</label>
 		<description>The Harley-Davidson of revolvers. A piece of the US, no matter where you may find yourself.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
+			<texPath>Things/Item/Equipment/WeaponRanged/FOTTZS_Blessing</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
@@ -187,7 +187,7 @@
 		<label>UX-30</label>
 		<description>A futuristic bullpup carbine used primarily by Olympus scouts. Ultra compact and very resilient to most climates, the UX-30 will keep you safe as long as you keep it safe.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
+			<texPath>Things/Item/Equipment/WeaponRanged/FOTTZS_30UX</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -276,7 +276,7 @@
 		<label>M530 Lance</label>
 		<description>A prewar relic, this is a fine example of western engineering. Slightly slower fire rate than most assault rifles but compensates for this by packing quite the punch.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
+			<texPath>Things/Item/Equipment/WeaponRanged/FOTTZS_M530Lance</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -366,7 +366,7 @@
 		<label>Balalaika</label>
 		<description>A eastern made sniper rifle that somehow survived through the war and ended up here. Robust and not too complex to maintain in the field.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
+			<texPath>Things/Item/Equipment/WeaponRanged/FOTTZS_Balalaika</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -450,7 +450,7 @@
 		<label>Nyx</label>
 		<description>It is unclear what the Olympians planned when creating the Nyx, but they ended up creating this monstrosity, a high caliber precision rifle more akin to a grenade launcher with optics ather than that of a sniper rifle</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/SniperRifle</texPath>
+			<texPath>Things/Item/Equipment/WeaponRanged/FOTTZS_Nyx</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -542,7 +542,7 @@
 		<label>SK2 Thule</label>
 		<description>Rheinmetall AG was tasked with designing a weapons platform for the X16C. Thus, the Thule was born, a high caliber autocannon which requires incredible strength to be properly wielded.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/LMG</texPath>
+			<texPath>Things/Item/Equipment/WeaponRanged/FOTTZS_SK2Thule</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -634,7 +634,7 @@
 		<label>Atlas</label>
 		<description>Originally designed to go on vehicles as a support weapon, the Atlas managed to find itself in the hands of Olympians as a support weapon.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/Minigun</texPath>
+			<texPath>Things/Item/Equipment/WeaponRanged/FOTTZS_Atlas</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>

@@ -6,7 +6,7 @@
 		<label>Hyperion</label>
 		<description>This spear is powered by unknown means, but seemingly pierces armor with ease. Typically worn by brave Olympians.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponMelee/Spear</texPath>
+			<texPath>Things/Item/Equipment/WeaponMelee/FOTTZS_Hyperion</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>-25</equippedAngleOffset>
@@ -71,7 +71,7 @@
 		<label>Gotterdammerung</label>
 		<description>This powered hammer is large and unwieldy, but smashes a foes skull with ease.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponMelee/Mace</texPath>
+			<texPath>Things/Item/Equipment/WeaponMelee/FOTTZS_Gotterdammerung</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
