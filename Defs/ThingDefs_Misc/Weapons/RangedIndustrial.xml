@@ -225,7 +225,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_FOTTZS_M530Lance</defaultProjectile>
+				<defaultProjectile>Bullet_FOTTZS_30UX</defaultProjectile>
 				<warmupTime>0.8</warmupTime>
 				<range>27.9</range>
 				<burstShotCount>3</burstShotCount>
