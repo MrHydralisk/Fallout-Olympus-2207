@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <MeleeWeapon_FOTTZS_Hyperion.label>亥伯龙</MeleeWeapon_FOTTZS_Hyperion.label>
+<MeleeWeapon_FOTTZS_Hyperion.description>这支长矛的能量来源不明，但似乎能轻松刺穿盔甲。通常由勇敢的奥林匹亚选手佩戴。</MeleeWeapon_FOTTZS_Hyperion.description>
+<MeleeWeapon_FOTTZS_Hyperion.tools.0.label>锤柄</MeleeWeapon_FOTTZS_Hyperion.tools.0.label>
+<MeleeWeapon_FOTTZS_Hyperion.tools.1.label>锤尖</MeleeWeapon_FOTTZS_Hyperion.tools.1.label>
+
+<MeleeWeapon_FOTTZS_Gotterdammerung.label>诸神的黄昏</MeleeWeapon_FOTTZS_Gotterdammerung.label>
+<MeleeWeapon_FOTTZS_Gotterdammerung.description>这把动力锤体积庞大，笨重不堪，但能轻松击碎敌人的头骨。</MeleeWeapon_FOTTZS_Gotterdammerung.description>
+<MeleeWeapon_FOTTZS_Gotterdammerung.tools.0.label>手柄</MeleeWeapon_FOTTZS_Gotterdammerung.tools.0.label>
+<MeleeWeapon_FOTTZS_Gotterdammerung.tools.1.label>头部</MeleeWeapon_FOTTZS_Gotterdammerung.tools.1.label>
+
+
+</LanguageData>

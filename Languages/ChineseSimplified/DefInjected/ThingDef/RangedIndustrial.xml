@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <Gun_FOTTZS_Glock13D.label>格洛克 13-D</Gun_FOTTZS_Glock13D.label>
+<Gun_FOTTZS_Glock13D.description>一款21世纪设计的坚固手枪。这把手枪主要在居住在奥林匹斯山的叛徒手中。</Gun_FOTTZS_Glock13D.description>
+<Gun_FOTTZS_Glock13D.tools.0.label>握把</Gun_FOTTZS_Glock13D.tools.0.label>
+<Gun_FOTTZS_Glock13D.tools.1.label>枪管</Gun_FOTTZS_Glock13D.tools.1.label>
+
+<Bullet_FOTTZS_Glock13D.label>格洛克 13-D 子弹</Bullet_FOTTZS_Glock13D.label>
+
+<Gun_FOTTZS_Blessing.label>祝福</Gun_FOTTZS_Blessing.label>
+<Gun_FOTTZS_Blessing.description>左轮手枪中的哈雷戴维森。无论身在何处，它都是美国的一部分。</Gun_FOTTZS_Blessing.description>
+<Gun_FOTTZS_Blessing.tools.0.label>握把</Gun_FOTTZS_Blessing.tools.0.label>
+<Gun_FOTTZS_Blessing.tools.1.label>枪管</Gun_FOTTZS_Blessing.tools.1.label>
+
+<Bullet_FOTTZS_Blessing.label>祝福子弹</Bullet_FOTTZS_Blessing.label>
+
+<Gun_FOTTZS_30UX.label>UX-30</Gun_FOTTZS_30UX.label>
+<Gun_FOTTZS_30UX.description>一款未来主义风格的无托卡宾枪，主要由奥林巴斯侦察兵使用。 UX-30 极其紧凑，适应大多数气候条件，只要您妥善保管，它就能保障您的安全。</Gun_FOTTZS_30UX.description>
+<Gun_FOTTZS_30UX.tools.0.label>枪托</Gun_FOTTZS_30UX.tools.0.label>
+<Gun_FOTTZS_30UX.tools.1.label>枪管</Gun_FOTTZS_30UX.tools.1.label>
+
+<Bullet_FOTTZS_30UX.label>UX-30 子弹</Bullet_FOTTZS_30UX.label>
+
+<Gun_FOTTZS_M530Lance.label>M530 长矛</Gun_FOTTZS_M530Lance.label>
+<Gun_FOTTZS_M530Lance.description>这是一件战前遗物，是西方武器的典范。工程学。射速比大多数突击步枪略慢，但威力十足，弥补了这一缺陷。</Gun_FOTTZS_M530Lance.description>
+<Gun_FOTTZS_M530Lance.tools.0.label>枪托</Gun_FOTTZS_M530Lance.tools.0.label>
+<Gun_FOTTZS_M530Lance.tools.1.label>枪管</Gun_FOTTZS_M530Lance.tools.1.label>
+
+<Bullet_FOTTZS_M530Lance.label>UX-30子弹</Bullet_FOTTZS_M530Lance.label>
+
+<Gun_FOTTZS_Balalaika.label>巴拉莱卡琴</Gun_FOTTZS_Balalaika.label>
+<Gun_FOTTZS_Balalaika.description>东方制造这支狙击步枪在战争中幸存了下来并最终流落到这里。坚固耐用，现场维护也相对简单。</Gun_FOTTZS_Balalaika.description>
+<Gun_FOTTZS_Balalaika.tools.0.label>枪托</Gun_FOTTZS_Balalaika.tools.0.label>
+<Gun_FOTTZS_Balalaika.tools.1.label>枪管</Gun_FOTTZS_Balalaika.tools.1.label>
+
+<Bullet_FOTTZS_Balalaika.label>巴拉莱卡子弹</Bullet_FOTTZS_Balalaika.label>
+
+<Gun_FOTTZS_Nyx.label>Nyx</Gun_FOTTZS_Nyx.label>
+<Gun_FOTTZS_Nyx.description>奥林匹亚诸神在打造Nyx时究竟有何意图尚不清楚，但他们最终打造出了这支庞然大物——一支高口径的与其说是狙击步枪，不如说是带光学瞄准镜的榴弹发射器。</Gun_FOTTZS_Nyx.description>
+<Gun_FOTTZS_Nyx.tools.0.label>枪托</Gun_FOTTZS_Nyx.tools.0.label>
+<Gun_FOTTZS_Nyx.tools.1.label>枪管</Gun_FOTTZS_Nyx.tools.1.label>
+
+<Bullet_FOTTZS_Nyx.label>Nyx子弹</Bullet_FOTTZS_Nyx.label>
+
+<Gun_FOTTZS_SK2Thule.label>SK2 Thule</Gun_FOTTZS_SK2Thule.label>
+<Gun_FOTTZS_SK2Thule.description>莱茵金属股份公司 (Rheinmetall AG) 负责为 X16C 设计武器平台。于是，Thule 诞生了，这是一款需要惊人力量才能正确使用的大口径自动加农炮。</Gun_FOTTZS_SK2Thule.description>
+<Gun_FOTTZS_SK2Thule.tools.0.label>枪托</Gun_FOTTZS_SK2Thule.tools.0.label>
+<Gun_FOTTZS_SK2Thule.tools.1.label>枪管</Gun_FOTTZS_SK2Thule.tools.1.label>
+
+<Bullet_FOTTZS_SK2Thule.label>SK2 Thule 子弹</Bullet_FOTTZS_SK2Thule.label>
+
+<Gun_FOTTZS_Atlas.label>Atlas</Gun_FOTTZS_Atlas.label>
+<Gun_FOTTZS_Atlas.description>Atlas 最初设计用于车载支援武器，但后来却落入了奥林匹亚人作为辅助武器。</Gun_FOTTZS_Atlas.description>
+<Gun_FOTTZS_Atlas.tools.0.label>枪管</Gun_FOTTZS_Atlas.tools.0.label>
+
+<Bullet_FOTTZS_Atlas.label>阿特拉斯子弹</Bullet_FOTTZS_Atlas.label>
+
+
+</LanguageData>

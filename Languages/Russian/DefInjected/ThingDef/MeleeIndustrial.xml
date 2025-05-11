@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <MeleeWeapon_FOTTZS_Hyperion.label>Гиперион</MeleeWeapon_FOTTZS_Hyperion.label>
+<MeleeWeapon_FOTTZS_Hyperion.description>Это копье приводится в действие неизвестным образом, но, по-видимому, с легкостью пробивает броню. Обычно носят храбрые олимпийцы.</MeleeWeapon_FOTTZS_Hyperion.description>
+<MeleeWeapon_FOTTTZS_Hyperion.tools.0.label>древко</MeleeWeapon_FOTTTZS_Hyperion.tools.0.label>
+<MeleeWeapon_FOTTTZS_Hyperion.tools.1.label>наконечник</MeleeWeapon_FOTTTZS_Hyperion.tools.1.label>
+
+<MeleeWeapon_FOTTTZS_Gotterdammerung.label>Gotterdammerung</MeleeWeapon_FOTTTZS_Gotterdammerung.label>
+<MeleeWeapon_FOTTTZS_Gotterdammerung.description>Этот мощный молот большой и громоздкий, но он разбивает череп врага с легкость.</MeleeWeapon_FOTTTZS_Gotterdammerung.description>
+<MeleeWeapon_FOTTZS_Gotterdammerung.tools.0.label>рукоятка</MeleeWeapon_FOTTZS_Gotterdammerung.tools.0.label>
+<MeleeWeapon_FOTTZS_Gotterdammerung.tools.1.label>головка</MeleeWeapon_FOTTZS_Gotterdammerung.tools.1.label>
+
+
+</LanguageData>
