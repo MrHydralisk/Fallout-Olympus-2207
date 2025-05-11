@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Gun_FOTTZS_Glock13D.label>Глок 13-D</Gun_FOTTZS_Glock13D.label>
+<Gun_FOTTZS_Glock13D.description>Надежный пистолет, разработанный еще в 21 веке. Этот пистолет в основном находится в руках ренегатов, живущих на Олимпе.</Gun_FOTTZS_Glock13D.description>
+<Gun_FOTTTZS_Glock13D.tools.0.label>рукоятка</Gun_FOTTTZS_Glock13D.tools.0.label>
+<Gun_FOTTTZS_Glock13D.tools.1.label>ствол</Gun_FOTTTZS_Glock13D.tools.1.label>
+
+<Bullet_FOTTTZS_Glock13D.label>пуля Глок 13-D</Bullet_FOTTTZS_Glock13D.label>
+
+<Gun_FOTTTZS_Blessing.label>Благословение</Gun_FOTTTZS_Blessing.label>
+<Gun_FOTTZS_Blessing.description>Harley-Davidson среди револьверов. Частичка США, где бы вы ни находились.</Gun_FOTTZS_Blessing.description>
+<Gun_FOTTTZS_Blessing.tools.0.label>рукоятка</Gun_FOTTTZS_Blessing.tools.0.label>
+<Gun_FOTTTZS_Blessing.tools.1.label>ствол</Gun_FOTTTZS_Blessing.tools.1.label>
+
+<Bullet_FOTTTZS_Blessing.label>пуля благословения</Bullet_FOTTTZS_Blessing.label>
+
+<Gun_FOTTTZS_30UX.label>UX-30</Gun_FOTTTZS_30UX.label>
+<Gun_FOTTTZS_30UX.description>Футуристичный карабин буллпап, используемый в основном разведчиками Олимпа. Сверхкомпактный и очень устойчивый к большинству климатических условий, UX-30 будет защищать вас до тех пор, пока вы будете его защищать.</Gun_FOTTTZS_30UX.description>
+<Gun_FOTTTZS_30UX.tools.0.label>ложа</Gun_FOTTTZS_30UX.tools.0.label>
+<Gun_FOTTTZS_30UX.tools.1.label>ствол</Gun_FOTTTZS_30UX.tools.1.label>
+
+<Bullet_FOTTTZS_30UX.label>пуля UX-30</Bullet_FOTTTZS_30UX.label>
+
+<Gun_FOTTTZS_M530Lance.label>винтовока M530</Gun_FOTTTZS_M530Lance.label>
+<Gun_FOTTZS_M530Lance.description>Это довоенная реликвия, прекрасный образец западной инженерной мысли. Немного более медленная скорострельность, чем у большинства штурмовых винтовок, но компенсирует это достаточной мощностью.</Gun_FOTTZS_M530Lance.description>
+<Gun_FOTTTZS_M530Lance.tools.0.label>ложа</Gun_FOTTTZS_M530Lance.tools.0.label>
+<Gun_FOTTTZS_M530Lance.tools.1.label>ствол</Gun_FOTTTZS_M530Lance.tools.1.label>
+
+<Bullet_FOTTTZS_M530Lance.label>пуля UX-30</Bullet_FOTTTZS_M530Lance.label>
+
+<Gun_FOTTTZS_Balalaika.label>Балалайка</Gun_FOTTTZS_Balalaika.label>
+<Gun_FOTTZS_Balalaika.description>Снайперская винтовка восточного производства, которая каким-то образом пережила войну и оказалась здесь. Прочный и не слишком сложный в обслуживании в полевых условиях.</Gun_FOTTZS_Balalaika.description>
+<Gun_FOTTTZS_Balalaika.tools.0.label>ложа</Gun_FOTTTZS_Balalaika.tools.0.label>
+<Gun_FOTTTZS_Balalaika.tools.1.label>ствол</Gun_FOTTTZS_Balalaika.tools.1.label>
+
+<Bullet_FOTTTZS_Balalaika.label>пуля для балалайки</Bullet_FOTTTZS_Balalaika.label>
+
+<Gun_FOTTTZS_Nyx.label>Нюкс</Gun_FOTTTZS_Nyx.label>
+<Gun_FOTTTZS_Nyx.description>Неясно, что планировали олимпийцы при создании Нюкса, но они в итоге создал это чудовище, высококалиберную винтовку, больше похожую на гранатомет с оптикой, чем на снайперскую винтовку</Gun_FOTTTZS_Nyx.description>
+<Gun_FOTTTZS_Nyx.tools.0.label>ложа</Gun_FOTTTZS_Nyx.tools.0.label>
+<Gun_FOTTTZS_Nyx.tools.1.label>ствол</Gun_FOTTTZS_Nyx.tools.1.label>
+
+<Bullet_FOTTTZS_Nyx.label>пуля  Нюкса</Bullet_FOTTTZS_Nyx.label>
+
+<Gun_FOTTTZS_SK2Thule.label>винтовока SK2 Тула</Gun_FOTTTZS_SK2Thule.label>
+<Gun_FOTTZS_SK2Thule.description>Компания Rheinmetall AG получила задание разработать оружейную платформу для X16C. Так родилась Тула, крупнокалиберная автоматическая пушка, для правильного обращения с которой требуется невероятная сила.</Gun_FOTTZS_SK2Thule.description>
+<Gun_FOTTTZS_SK2Thule.tools.0.label>ложа</Gun_FOTTTZS_SK2Thule.tools.0.label>
+<Gun_FOTTTZS_SK2Thule.tools.1.label>ствол</Gun_FOTTTZS_SK2Thule.tools.1.label>
+
+<Bullet_FOTTTZS_SK2Thule.label>пуля SK2 Тула</Bullet_FOTTTZS_SK2Thule.label>
+
+<Gun_FOTTTZS_Atlas.label>Атлас</Gun_FOTTTZS_Atlas.label>
+<Gun_FOTTZS_Atlas.description>Изначально разработанный для установки на транспортные средства в качестве вспомогательного оружия, Атлас сумел оказаться в руках олимпийцев в качестве вспомогательного оружия.</Gun_FOTTZS_Atlas.description>
+
+<Gun_FOTTZS_Atlas.tools.0.label>стволы</Gun_FOTTZS_Atlas.tools.0.label>
+
+<Bullet_FOTTZS_Atlas.label>пуля Атлас</Bullet_FOTTZS_Atlas.label>
+
+</LanguageData>
