@@ -71,7 +71,7 @@
 	<ThingDef ParentName="ApparelArmorFOTTZSBase">
 		<defName>Apparel_FOTTZS_CSPhalanxArmor</defName>
 		<label>Combat Suit Phalanx</label>
-		<description>The Phalanx Combat Armor Suit is a visible piece of military technology designed to provide enhanced protection and fire support on the battlefield. Developed as part of classified military programs for the Great War, the suit combines front armor, integrated weapons systems, and enhanced mobility to make it a formidable force in the hands of a skilled user.</description>
+		<description>A suit of military grade combat armor used by lighter security forces of Olympus. Layers of kevlar, steel plates and a electronic combat system within the helmet provides the outer forces not only great protection but good cohesion.</description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath>
 		</graphicData>
@@ -109,7 +109,7 @@
 	<ThingDef ParentName="ApparelArmorFOTTZSBase">
 		<defName>Apparel_FOTTZS_CSFrogArmor</defName>
 		<label>Combat Suit Frog</label>
-		<description>Designed by elite Olympian engineers, this lightweight power armor combines advanced technology with tactical versatility. The Frog is designed for stealth operations, reconnaissance, and lightning-fast attacks, allowing soldiers to operate in the most challenging environments with maximum effectiveness.</description>
+		<description>This combat suit is worn by Olympians sent to highly hazardous environments, this suit will provide ample protection to most situations.</description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath>
 		</graphicData>
