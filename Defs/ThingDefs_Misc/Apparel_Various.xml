@@ -73,7 +73,7 @@
 		<label>Combat Suit Phalanx</label>
 		<description>A suit of military grade combat armor used by lighter security forces of Olympus. Layers of kevlar, steel plates and a electronic combat system within the helmet provides the outer forces not only great protection but good cohesion.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Phalanx/FOTTZS_Phalanx_Male_south</texPath>
 		</graphicData>
 		<statBases>
 			<WorkToMake>40500</WorkToMake>
@@ -101,7 +101,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Phalanx/FOTTZS_Phalanx</wornGraphicPath>
 			<tags>
 				<!-- <li>SpacerMilitary</li> -->
 			</tags>
@@ -113,7 +113,7 @@
 		<label>Combat Suit Frog</label>
 		<description>This combat suit is worn by Olympians sent to highly hazardous environments, this suit will provide ample protection to most situations.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Frog/FOTTZS_Frog_Male_south</texPath>
 		</graphicData>
 		<statBases>
 			<WorkToMake>45000</WorkToMake>
@@ -141,7 +141,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ReconArmor/ReconArmor</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Frog/FOTTZS_Frog</wornGraphicPath>
 			<tags>
 				<!-- <li>SpacerMilitary</li> -->
 			</tags>
@@ -153,7 +153,7 @@
 		<label>Power Armor X16C Tartarus</label>
 		<description>Nicknamed the Tartarus because while being inside this highly advanced suit of power armor feels like having been buried alive. Grants high protection, but at a cost of mobility. Worn by the elite branch of Olympus security.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Tartarus/FOTTZS_Tartarus</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Tartarus/FOTTZS_Tartarus_Hulk_south</texPath>
 		</graphicData>
 		<statBases>
 			<WorkToMake>75000</WorkToMake>
@@ -196,7 +196,7 @@
 		<label>Power Armor X16S Thanatos</label>
 		<description>The X16S is an improvement upon the old X16C power armor. With thicker plating and a more robust frame, this is the peak of personal protection upon the field.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Thanatos/FOTTZS_Thanatos</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/FOTTZS_Thanatos/FOTTZS_Thanatos_Hulk_south</texPath>
 		</graphicData>
 		<statBases>
 			<WorkToMake>81500</WorkToMake>
