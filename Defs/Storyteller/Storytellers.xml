@@ -5,8 +5,8 @@
 		<defName>FOTTZS_O</defName>
 		<label>Onyx Forge</label>
 		<description>Onyx subjects your colony to sustained, grinding pressure, constantly testing its limits. He'll wear you down with persistent hardships and resource scarcity, aiming to temper your resolve or break it. Between his calculated waves of adversity, he will concede stark, brief windows, forcing you to rapidly prepare your defenses and mend your battered colony before the next trial begins.</description>
-		<portraitLarge>UI/HeroArt/Storytellers/O</portraitLarge>
-		<portraitTiny>UI/HeroArt/Storytellers/OTiny</portraitTiny>
+		<portraitLarge>UI/HeroArt/Storytellers/FOTTZSO</portraitLarge>
+		<portraitTiny>UI/HeroArt/Storytellers/FOTTZSOTiny</portraitTiny>
 		<listOrder>674</listOrder>
 		<comps>
 			<!-- Intro -->
